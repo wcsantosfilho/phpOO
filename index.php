@@ -7,7 +7,19 @@ echo $pessoa1->correr(40);
 
 require_once ("Produto.php");
 require_once ("Tenis.php");
+require_once ("TenisAdidas.php");
 $produto1 = new Tenis();
-$produto1->set
+
+
+$tenis = new TenisAdidas();
+$tenis->getCor();
+
+
+if ($tenis instanceof Pessoa) {
+    echo 'É um tipo de Tenis';
+} else {
+    echo 'Não é um tipo de Tenis';
+}
+
 
 ?>
