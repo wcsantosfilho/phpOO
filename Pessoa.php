@@ -68,17 +68,4 @@ class Pessoa
 
 
 }
-
-$pessoa1 = new Pessoa('Alfredo', 48);;
-$pessoa1->setNomePessoa('Xico');
-$pessoa1->setIdade(33);
-$pessoa2 = new Pessoa('Romão', 22);
-$pessoa2->setNomePessoa('José');
-$pessoa2->setIdade(43);
-
-echo '<br>';
-echo $pessoa1->correr(50);
-echo $pessoa2->correr(88);
-echo '<br>';
-
 ?>
